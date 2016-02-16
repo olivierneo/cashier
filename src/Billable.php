@@ -386,7 +386,7 @@ trait Billable
      */
     public function preferredCurrency()
     {
-        return 'usd';
+        return 'chf';
     }
 
     /**
