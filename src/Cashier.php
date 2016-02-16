@@ -37,9 +37,9 @@ class Cashier
         $amount = number_format($amount / 100, 2);
 
         if (starts_with($amount, '-')) {
-            return '-$'.ltrim($amount, '-');
+            return '-CHF'.ltrim($amount, '-');
         } else {
-            return '$'.$amount;
+            return 'CHF'.$amount;
         }
     }
 }
