@@ -244,7 +244,7 @@ class Invoice
             define('DOMPDF_ENABLE_AUTOLOAD', false);
         }
 
-        if (file_exists($configPath = base_path().'/vendor/dompdf/dompdf/dompdf_config.inc.php')) {
+        if (file_exists($configPath = base_path().'/plugins/bop/bm/vendor/dompdf/dompdf/dompdf_config.inc.php')) {
             require_once $configPath;
         }
 
